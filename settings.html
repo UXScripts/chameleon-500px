@@ -9,12 +9,29 @@
     <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="http://chameleonlauncher.com/widgets/common/js/chameleon.js" type="text/javascript"></script>
     <script src="http://chameleonlauncher.com/widgets/common/js/chameleon.jquery.js" type="text/javascript"></script>
+    <script src="js/underscore-min.js" type="text/javascript"></script>
+    <script src="js/gecko.js" type="text/javascript"></script>
+    <script src="js/shared.js" type="text/javascript"></script>
     <script src="js/settings.main.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="chameleon-widget-settings">
       <header>Settings</header>
       <div id="widget-settings">
+        <form class="form-horizontal">
+          <fieldset>
+            <div class="control-group">     
+            <label class="control-label">Feed Type</label>
+            <p class="help">Select which of the 500px public feeds to display.</p>
+            <div class="controls">
+              <a href="#" id="feed_select" class="selectbox"></a>
+            </div>            
+          </div>
+          <div class="control-group">
+            <p class="help">User feeds are coming soon...</p>
+          </div>
+          </fieldset>
+        </form>
       </div>
       <a id="close-button" href="#" class="done">Done</a>
     </div>

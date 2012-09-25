@@ -2,11 +2,11 @@
 <manifest xmlns="http://chameleonlauncher.com/widgets">
   <!-- About the widget -->
   <widget>
-    <guid>com.matthewtole.chameleon.template</guid> <!-- A unique id -->
-    <baseURL>http://matthewtole.com/chameleon/template/</baseURL> <!-- your base url -->
-    <name>Matthew Tole's Template</name> <!-- title that users will see as the name of the widget -->
-    <description>Matthew Tole's modified blank template for making widgets</description> <!-- a detailed description of the widget -->
-    <version>0.0.0</version> <!-- the version number of your widget -->
+    <guid>com.matthewtole.chameleon.500px</guid> <!-- A unique id -->
+    <baseURL>http://matthewtole.com/chameleon/d/500px/</baseURL> <!-- your base url -->
+    <name>500px</name> <!-- title that users will see as the name of the widget -->
+    <description>Widget for displaying photos from 500px</description> <!-- a detailed description of the widget -->
+    <version>0.0.1</version> <!-- the version number of your widget -->
   </widget>  
   <!-- Style info -->
   <style>
@@ -36,7 +36,9 @@
   <resources>
     <resource name='index.html' />
     <resource name='settings.html' />
+    <resource name='js/underscore-min.js' />
     <resource name='js/gecko.js' />
+    <resource name='js/500px.js' />
     <resource name='js/index.main.js' />
     <resource name='js/settings.main.js' />
     <resource name='css/widget.css' />

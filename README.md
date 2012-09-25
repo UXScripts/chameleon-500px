@@ -1,4 +1,4 @@
-chameleon-template
+chameleon-500px
 ==================
 
-Modified version of the developer template for creating Chameleon widgets.
+A Chameleon Launcher widget for display photographs from 500px.
