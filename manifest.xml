@@ -6,7 +6,7 @@
     <baseURL>http://matthewtole.com/chameleon/500px/</baseURL> <!-- your base url -->
     <name>500px</name> <!-- title that users will see as the name of the widget -->
     <description>Widget for displaying photos from 500px</description> <!-- a detailed description of the widget -->
-    <version>0.0.1</version> <!-- the version number of your widget -->
+    <version>0.0.2</version> <!-- the version number of your widget -->
   </widget>  
   <!-- Style info -->
   <style>
