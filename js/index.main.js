@@ -9,7 +9,14 @@ $(document).ready(function() {
 
   function loadPhotos(type, callback) {
     photos = [];
-    _500px.api('/photos', { feature: type, page: 1 }, function (response) {
+    var options = {
+      feature: type, 
+      page: 1
+    };
+    if (gecko.getInstanceData('nudity')) {
+      options.exclude = 'Nude';
+    }
+    _500px.api('/photos', options, function (response) {
       _.each(response.data.photos, function(photo) {
         photos.push(photo);
       });
@@ -46,8 +53,10 @@ $(document).ready(function() {
     loadPhotos(type, renderPhotos);
   }
 
-  function postConfigure() {
-    loadPhotoFeed();
+  function postConfigure(success) {
+    if (success) {
+      loadPhotoFeed();
+    }
   }
 
   var umLockout = false;

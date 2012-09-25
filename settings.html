@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="http://chameleonlauncher.com/widgets/common/css/chameleon.css" />
     <link rel="stylesheet" href="http://chameleonlauncher.com/widgets/common/css/chameleon-settings.css" />
+    <link rel="stylesheet" href="css/widget.css" />
     <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="http://chameleonlauncher.com/widgets/common/js/chameleon.js" type="text/javascript"></script>
     <script src="http://chameleonlauncher.com/widgets/common/js/chameleon.jquery.js" type="text/javascript"></script>
@@ -28,12 +29,25 @@
             </div>            
           </div>
           <div class="control-group">
+            <label class="control-label">Include Nudity</label>
+            <div class="controls">
+              <label class="checkbox-label">
+              <input type="checkbox" id="nude_toggle" />
+              Should the feeds include photos flagged as containing nudity?
+              </label>
+
+            </div>
+          </div>
+          <div class="control-group">
             <p class="help">User feeds are coming soon...</p>
           </div>
           </fieldset>
         </form>
       </div>
-      <a id="close-button" href="#" class="done">Done</a>
+      <div>
+        <a id="cancel-button" href="#" class="done half">Cancel</a>
+        <a id="save-button" href="#" class="done half">Save</a>
+      </div>
     </div>
   </body>
 </html>
