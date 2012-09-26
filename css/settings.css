@@ -1,0 +1,26 @@
+#chameleon-widget-settings label.checkbox-label {
+  text-transform: none !important;
+  font-size: 12px !important;
+}
+
+#chameleon-widget-settings label.checkbox-label input[type="checkbox"] {
+  display: inline;
+  float: left;
+}
+
+#chameleon-widget-settings a.done.half:first-child {
+  width: 46%;
+  right: auto;
+  left: 2%;
+  bottom: 2%;
+  padding: 12px 0;
+}
+
+#chameleon-widget-settings a.done.half:last-child {
+  width: 47%;
+  left: auto;
+  right: 2%;
+  bottom: 2%;
+  padding: 12px 0;
+}
+

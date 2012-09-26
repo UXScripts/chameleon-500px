@@ -13,9 +13,18 @@
     <script src="js/gecko.js" type="text/javascript"></script>
     <script src="js/500px.js" type="text/javascript"></script>
     <script src="js/shared.js" type="text/javascript"></script>
+    <script src="js/ICanHaz.js" type="text/javascript"></script>
     <script src="js/index.main.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="chameleon-widget"></div>
+    <script id="photo" type="text/html">
+      <div class="photo-div" data-id="{{ id }}">
+        <img src="{{ image_url }}" />
+        <p class="details">
+          <span class="title">{{ name }}</span> - {{ user.fullname }}
+        </p>
+      </div>
+    </script>
   </body>
 </html>
