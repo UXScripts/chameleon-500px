@@ -7,4 +7,4 @@ The latest version of the widget can be found at <http://matthewtole.com/chamele
 
 ### Screenshots 0.1.1
 ![](http://matthewtole.com/chameleon/screenshots/500px-0.1.1-A.png)
-![](http://matthewtole.com/chameleon/screenshots/500px-0.1.1-b.png)
+![](http://matthewtole.com/chameleon/screenshots/500px-0.1.1-B.png)
