@@ -62,6 +62,7 @@ $(document).ready(function() {
       photo.image_url = photo.image_url.replace('2.jpg', '3.jpg');
       WIDGET.append(ich.photo(photo));
     });
+    WIDGET.append($('<div style="clear: both;"></div>'));
     updateSizes();
   }
 
@@ -82,6 +83,10 @@ $(document).ready(function() {
 
     var cols = Math.ceil(WIDGET.width() / 280);
     var image_width = Math.floor((WIDGET.width() - ((cols - 1) * 20)) / cols);
+    if ($(window).height() < ((image_width + 40) * 2)) {
+      cols += 1;
+      image_width = Math.floor((WIDGET.width() - ((cols - 1) * 20)) / cols);
+    }
 
     $('.photo-div').hide();
     

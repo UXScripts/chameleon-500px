@@ -5,7 +5,7 @@
     <baseURL>http://matthewtole.com/chameleon/500px/</baseURL> 
     <name>500px</name> 
     <description>Widget for displaying photos from 500px</description> 
-    <version>0.1.0</version> 
+    <version>0.1.1</version> 
   </widget>  
   <style>
     <icons>
