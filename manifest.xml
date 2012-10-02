@@ -28,7 +28,7 @@
     <resource name='index.html' />
     <resource name='settings.html' />
     <resource name='js/underscore-min.js' />
-    <resource name='js/gecko.js' />
+    <resource name='js/gecko/gecko.js' />
     <resource name='js/500px.js' />
     <resource name='js/ICanHaz.js' />
     <resource name='js/shared.js' />
